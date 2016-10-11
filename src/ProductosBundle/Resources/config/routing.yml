@@ -1,0 +1,11 @@
+productos_homepage:
+    path:     /
+    defaults: { _controller: ProductosBundle:Default:index }
+
+producto1:
+    path:     /
+    defaults: { _controller: ProductosBundle:Default:producto1 }
+
+producto2:
+    path:     /
+    defaults: { _controller: ProductosBundle:Default:producto2 }
